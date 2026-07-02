@@ -134,7 +134,7 @@ Full interactive docs (Swagger UI) are also available at [http://localhost:8000/
 
 ---
 
-## 🏗️ Architecture Decision Record (ADR)
+## Architecture Decision Record (ADR)
 
 ### 1. Choice of FastAPI + SQLAlchemy (Async-ready)
 - **Context:** Need a high-performance backend with automatic documentation.
@@ -153,7 +153,7 @@ Full interactive docs (Swagger UI) are also available at [http://localhost:8000/
 
 ---
 
-## 🧠 Learning Reflection
+##  Learning Reflection
 
 One thing I explored deeply for this project was **Server-Sent Events (SSE)** for real-time updates. Implementing a generator that polls the database and yields events to the frontend was a great way to handle "live" score updates without the complexity of WebSockets. 
 
@@ -161,7 +161,7 @@ Given more time, I would explore using **Alembic** for more formal database migr
 
 ---
 
-## ✅ Features Implemented
+## Features Implemented
 - **RBAC:** Reviewers see only their scores; Admins see all.
 - **AI Summary:** Mock 2s delay with persistence in the database.
 - **Real-time:** SSE stream for score updates.
