@@ -57,7 +57,7 @@ results = query.offset(offset).limit(page_size).all()
 
 ---
 
-## 📡 Example API Calls (curl)
+## Example API Calls (curl)
 
 All examples assume the backend is running on `http://localhost:8000` (default when using Docker or the local uvicorn setup above).
 
